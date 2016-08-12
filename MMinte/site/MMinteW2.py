@@ -61,7 +61,7 @@ class Widget2(server.App):
     
     def getHTML(self,params):
 
-        if params['text6'] == 'Yes' or params['text1'] == "yes":
+        if params['text6'] == 'Yes' or params['text6'] == "yes":
             seqsToBlast = '../supportFiles/exampleRun/userOutput/reprOTUsToUse.fasta'
             outFolder = '../supportFiles/exampleRun/userOutput/'
             outSimilFile = 'similFile.txt'
